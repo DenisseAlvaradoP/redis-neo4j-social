@@ -1,9 +1,29 @@
+# Entorno virtual
+venv/
+env/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.db
+
+# Archivos de configuración y logs
+*.log
+*.sqlite3
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Variables de entorno (no subir claves)
 .env
+
+# Visual Studio Code
 .vscode/
-venv/
-.idea/
+
+# Archivos de base de datos y caché
+*.db
+*.sqlite
+
+# Archivos temporales
+*.swp
+*~
